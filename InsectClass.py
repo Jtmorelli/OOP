@@ -1,6 +1,6 @@
 import random
 
-
+# bug stuff
 class Insect:
     def __init__(self):
         self.wings = 2
