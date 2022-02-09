@@ -1,12 +1,7 @@
 import InsectClass as i
 
+fly = i.Insect(2, 4)
 
-def main():
-    new_bug = i.Insect()
+fly.flight_length()
 
-    # print out about the bug
-
-    print("This bug can fly ", new_bug.get_Length(), "miles.")
-
-
-main()
+print("The insect can fly up to ", fly.get_miles(), "miles.")
